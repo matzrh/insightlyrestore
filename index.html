@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://mottie.github.io/tablesorter/js/jquery.tablesorter.js"></script>
+  <script src="https://mottie.github.io/tablesorter/js/jquery.tablesorter.widgets.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://mottie.github.io/tablesorter/css/theme.default.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body onload='init()'>
+  <h1>Backup Restore Insightly</h1>
+  <div id="fileupload">
+    <h4>Backup XML hochladen:</h4>
+    <input type="file" id="xml_file" name="filename"><br/>
+    CRM (Insightly) Key eingeben:<input type="text" id="crm_key" name="key">
+  </div>
+  <div id="content"> </div>
+</body>
+
+</html>
